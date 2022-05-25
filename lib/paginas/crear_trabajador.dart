@@ -96,6 +96,7 @@ class _CreateTrabajadorState extends State<Create_Trabajador> {
       decoration: const InputDecoration(
         labelText: "Nombre y Apellido",
         hintText: "Ej: Nombre(s) y Apellido(s)",
+        suffixIcon: Icon(Icons.edit),
       ),
     );
   }
